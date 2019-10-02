@@ -25,7 +25,7 @@ export default function RomanNumeralComponent () {
             }
             return result;
         } else {
-            // default to nulla if ints === 0 is provided
+            // default to nulla if ints === 0
             ints = "Nulla";
         }
         return ints;
